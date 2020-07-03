@@ -63,8 +63,8 @@ img = cv2.bitwise_not(vertical) #image without horizontal lines (black turn whit
 original = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR) #grayscale to a rgb channel
 reverse = cv2.cvtColor(vertical,cv2.COLOR_GRAY2BGR)	#reverse in rgb
 
-#cv2.imshow('img', img)
-#cv2.imshow('orig',original) #note: conflict name cv2.imshow
+cv2.imshow('img', img)
+cv2.imshow('orig',original) #note: conflict name cv2.imshow
 #cv2.imshow('reverse', reverse)
 #cv2.waitKey(0)
 
@@ -217,12 +217,12 @@ for i in range(len(coordinates)):
 	cv2.imshow('single_element.jpg', roi)
 	cv2.waitKey(0)
 
-i = 3 #manual select image (range: [0, 4])
+i = 2 #manual select image (range: [0, 4])
 x = coordinates[i][0] 
 y = coordinates[i][1] 
 w = coordinates[i][2] 
 h = coordinates[i][3]
 cv2.rectangle(origin,(x,y), (x+w, y+h), (200,0,0), 2)
-cv2.imwrite('gotcha/Image_cont.jpg',origin )
+cv2.imwrite('gotcha/select_box.jpg',origin )
 cv2.imshow('IMAGE_board.jpg',origin)
 cv2.waitKey(0)

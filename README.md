@@ -9,6 +9,10 @@ Este repositório visa criar/refinar um script que seja capaz de simular uma ver
 
 * [Selenium](https://www.seleniumhq.org/)
 
+* [Numpy](https://numpy.org/install/)
+
+* [Matplot](https://matplotlib.org/3.1.1/users/installing.html)
+
 ## Modelo 
 Este modelo de verificação em específico foi utiliado como template de votação:<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](./images/exemplo.png)

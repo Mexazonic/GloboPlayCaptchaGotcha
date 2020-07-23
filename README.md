@@ -12,6 +12,8 @@ Este repositório visa criar/refinar um script que seja capaz de simular uma ver
 
 * Estruturar Dataset de Elementos por características
 
+* Modularizar e Aplicar as boas práticas 
+
 
 ## Depêndencias
 * [Python3](https://www.python.org/)

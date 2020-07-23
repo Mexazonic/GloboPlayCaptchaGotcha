@@ -2,6 +2,17 @@
 
 Este repositório visa criar/refinar um script que seja capaz de simular uma verificação de autenticidade mediante captchas de imagens utilizando Python.
 
+## Metas 
+
+* Aprimorar/Diversificar Dataset
+
+* Ligar/Mescalar Contornos Próximos 
+
+* Gravar Coordenadas de elementos para click
+
+* Estruturar Dataset de Elementos por características
+
+
 ## Depêndencias
 * [Python3](https://www.python.org/)
 

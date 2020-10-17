@@ -6,7 +6,7 @@ Este repositório visa criar/refinar um script que seja capaz de simular uma ver
 
 * Aprimorar/Diversificar Dataset
 
-* Ligar/Mescalar Contornos Próximos 
+* Ligar/Mesclar Contornos Próximos 
 
 * Gravar Coordenadas de elementos para click
 

@@ -1,6 +1,6 @@
 ## Captcha Challange
 
-Este repositório visa criar/refinar um script que seja capaz de simular uma verificação de autenticidade mediante captchas de imagens utilizando Python.
+Este repositório tem o intuito de refinar um script de verificação de autenticidade mediante captchas de imagens utilizando Python.
 
 ## Metas 
 
@@ -30,10 +30,10 @@ Este repositório visa criar/refinar um script que seja capaz de simular uma ver
 Este modelo de verificação em específico foi utiliado como template de votação:<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](./images/exemplo.png)
 &nbsp;&nbsp;&nbsp;&nbsp;<br><br/>
-Onde o usuário deveria identificar na imagem qual a ***posição/coordenadas*** correta da figura requisitada(gota). <br>Para determinado usuário realizar um grande número de votações(tendo em vista que a quantidade de votos não era restrita) todo este trabalho, eventualmente,torna-se cansativo.<br>Por fim, seria menos trabalhoso tentar automatizar este processo(***ou não***).
+Onde o usuário deveria identificar na imagem qual a ***posição/coordenadas*** correta da figura requisitada(gota). <br>Para determinado usuário realizar um grande número de votaçõe todo este trabalho manual é necessário. Eventualmente,torna-se cansativo esta burocracia para concluir a tarefa.<br>A proposta desse script seria tentar automatizar este processo de votação e identificação de ícones.
 
 ## Resumo e Objetivos
-* Criar um bot de votações que atenda o modelo proposto;
+* Criar um script de votações que atenda o modelo proposto;
 
 * Identificar e organizar os elementos dos captchas;
 
